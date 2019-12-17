@@ -28,3 +28,4 @@ export function timetrans(oldDate) {
     var s = date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
     return Y + M + D + h + m + s;
 }
+

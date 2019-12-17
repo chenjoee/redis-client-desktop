@@ -241,4 +241,17 @@
         line-height: 1.42857143;
         color: #333;
     }
+
+
+    .CrateBucket .el-input{
+        width: 80%;
+    }
+    .CrateBucket .el-form-item__label {
+        width: 20% !important;
+        text-align: left !important;
+    }
+    .CrateBucket .el-form-item--small .el-form-item__error {
+        padding-left: 25%;
+    }
+
 </style>
