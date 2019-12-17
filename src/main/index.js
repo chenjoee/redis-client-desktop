@@ -28,8 +28,8 @@ function createWindow(config) {
   // 创建一个新窗口
   mainWin = new BrowserWindow({
     ...defaultWindowConfig,
-    width: 1000,
-    height: 750,
+    width: 1200,
+    height: 850,
     ...config
   });
   // 默认加载登录界面
