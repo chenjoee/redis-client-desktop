@@ -2,12 +2,12 @@
   <el-menu default-active="0">
     <el-menu-item
       :index="''+index"
-      v-for="(item,index) in bucketList"
-      :key="index"
+      v-for="(item,index) in getRedisConnList"
+      :key="item.name"
       @click="switchBucket(item)"
     >
       <i class="icon"></i>
-      <span slot="title">{{item}}</span>
+      <span slot="title">{{item.name}}</span>
       <i
         class="el-icon-delete delete"
         @click.stop.prevent="beforeDelete(item)"
@@ -52,7 +52,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(["bucketList"])
+    ...mapGetters(["getRedisConnList"])
   },
   mounted() {
     this.$store.dispatch("GetBucket");

@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="CrateBucket">
         <h4 class="title">Redis连接
             <i
                     class="el-icon-plus add"
@@ -19,7 +19,7 @@
 
                 <el-form-item
                         label="连接名"
-                        prop="name"
+                        prop="connName"
                         :rules="{ required: true, message: '例：localhost', trigger: 'blur' }"
                 >
                     <el-input
@@ -30,19 +30,28 @@
 
                 <el-form-item
                         label="地址"
-                        prop="name"
-                        :rules="{ required: true, message: '例：127.0.0.1:3306', trigger: 'blur' }"
+                        prop="connIP"
+                        :rules="{ required: true, message: '例：127.0.0.1', trigger: 'blur' }"
                 >
                     <el-input
-                            v-model="form.connAddr"
-                            placeholder="redis地址 IP:Port"
+                            v-model="form.connIP"
+                            placeholder="redis IP"
+                    ></el-input>
+                </el-form-item>
+
+                <el-form-item
+                        label="端口"
+                        prop="connPort"
+                        :rules="{ required: true, message: '例：6379', trigger: 'blur' }"
+                >
+                    <el-input
+                            v-model="form.connPort"
+                            placeholder="redis IP"
                     ></el-input>
                 </el-form-item>
 
                 <el-form-item
                         label="密码"
-                        prop="password"
-                        :rules="{ required: true, message: '例：12345678', trigger: 'blur' }"
                 >
                     <el-input
                             v-model="form.password"
@@ -89,21 +98,17 @@
 </template>
 
 <script>
+    import { mapGetters } from "vuex";
+    import {redisTool} from "@/utils/redistool";
     export default {
         data() {
             return {
                 dialogVisible: false,
                 form: {
-                    connName: "",
-                    connAddr: "",
+                    connName: "localhost",
+                    connIP: "127.0.0.1",
+                    connPort: 6379,
                     password: ""
-                },
-                regionList: {
-                    z0: "华东",
-                    z1: "华北",
-                    z2: "华南",
-                    na0: "北美",
-                    as0: "东南亚"
                 }
             };
         },
@@ -111,20 +116,33 @@
             submitForm(formName) {
                 this.$refs[formName].validate(valid => {
                     if (valid) {
-                        this.$store
-                            .dispatch("CreateBucket", {
-                                name: this.form.name,
-                                region: this.form.region
-                            })
-                            .then(it => {
-                                if (it.status === 200) {
-                                    this.$message.success("添加成功");
-                                    this.cancel("createBucket");
-                                }
-                            })
-                            .catch(() => {
-                                this.$message.error("添加失败");
-                            });
+                        // this.$store.dispatch("connRedis", {
+                        //         name: this.form.connName,
+                        //         host: this.form.connIP,
+                        //         port: this.form.connPort,
+                        //         pwd: this.form.password
+                        //     })
+                        //新建redis连接, 放入store
+                        let params = {
+                            name: this.form.connName,
+                            host: this.form.connIP,
+                            port: this.form.connPort,
+                            pwd: this.form.password
+                        }
+
+
+                        for ( let item in getRedisConnList) {
+                            if (this.form.connName == item.name) {
+
+                            }
+                        }
+
+
+                        let result = redisTool.start(params)
+                        if (result && result != "error") {
+
+                        }
+
                     } else {
                         return false;
                     }
@@ -137,11 +155,16 @@
                 this.resetForm(formName);
                 this.dialogVisible = false;
             }
-        }
+        },
+        computed: {
+            ...mapGetters(["getRedisConnList"])
+        },
     };
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+
+
     .title {
         font-weight: normal;
         font-size: 12px;
@@ -158,3 +181,4 @@
         }
     }
 </style>
+
