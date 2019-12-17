@@ -1,18 +1,14 @@
 <template>
-  <el-menu default-active="0">
-    <el-menu-item
-      :index="''+index"
-      v-for="(item,index) in getRedisConnList"
-      :key="item.name"
-      @click="switchBucket(item)"
-    >
-      <i class="icon"></i>
-      <span slot="title">{{item.name}}</span>
-      <i
-        class="el-icon-delete delete"
-        @click.stop.prevent="beforeDelete(item)"
-      ></i>
-    </el-menu-item>
+  <el-menu>
+    <el-submenu v-for="(item,index) in getRedisConnList" :index="''+index" :key="item.name">
+      <template slot="title">
+        <i class="icon"></i>
+        <span slot="title">{{item.name}}</span>
+      </template>
+      <el-menu-item :index="index + '-' + index2" v-for="(index2) in dbindex" >
+        db{{index2}}
+      </el-menu-item>
+    </el-submenu>
   </el-menu>
 </template>
 
@@ -21,7 +17,9 @@ import { mapGetters } from "vuex";
 
 export default {
   data() {
-    return {};
+    return {
+        dbindex: [0,1,3,4,5,6,7,8,9,10,11,12,13,14,15]
+    };
   },
   methods: {
     switchBucket(data) {

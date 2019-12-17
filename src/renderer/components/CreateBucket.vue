@@ -123,25 +123,27 @@
                         //         pwd: this.form.password
                         //     })
                         //新建redis连接, 放入store
+                        debugger
+                        let rdscl = this.getRedisConnList
+                        for ( let item in rdscl) {
+                            if (this.form.connName == rdscl[item].name) {
+                                this.$message.error("连接名" + this.form.connName + "已存在")
+                                return false;
+                            }
+                        }
                         let params = {
                             name: this.form.connName,
                             host: this.form.connIP,
                             port: this.form.connPort,
-                            pwd: this.form.password
+                            password: this.form.password
                         }
 
-
-                        for ( let item in getRedisConnList) {
-                            if (this.form.connName == item.name) {
-
-                            }
+                        let r = redisTool.start(params);
+                        if (r && r != "error") {
+                            params.client = r;
+                            rdscl.push(params);
                         }
-
-
-                        let result = redisTool.start(params)
-                        if (result && result != "error") {
-
-                        }
+                        this.cancel("createBucket");
 
                     } else {
                         return false;
@@ -152,6 +154,7 @@
                 this.$refs[formName].resetFields();
             },
             cancel(formName) {
+                debugger
                 this.resetForm(formName);
                 this.dialogVisible = false;
             }

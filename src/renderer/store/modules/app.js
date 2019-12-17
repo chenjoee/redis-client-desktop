@@ -22,8 +22,8 @@ const app = {
         currentBucket: "",
         url: [],
         redisConnList: [
-            {name: "localhost"},
-            {name: "localhost1"},
+            {name: "localhost", db:[1,2,3,4,5]},
+            {name: "localhost1", db:[1,2,3,4,5]},
             {name: "localhost2"},
             {name: "localhost3"}
         ],
