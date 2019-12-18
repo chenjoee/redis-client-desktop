@@ -68,6 +68,9 @@ npm run dev
 npm run build
 ```
 
+
+# 路线修改，做了预研, 发现nodejs对redis支持的操作并不多，加上自身对nodejs并不了解， 所以修改为 golang + electron 
+
 ### 帮助
 
-如果你觉得这个有意义，请联系我 905488821@qq.com
+请联系我 905488821@qq.com 参与代码
