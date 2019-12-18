@@ -21,12 +21,7 @@ const app = {
         list: [],
         currentBucket: "",
         url: [],
-        redisConnList: [
-            {name: "localhost", db:[1,2,3,4,5]},
-            {name: "localhost1", db:[1,2,3,4,5]},
-            {name: "localhost2"},
-            {name: "localhost3"}
-        ],
+        redisConnList: [],
     },
     mutations: {
         SET_TOKEN: (state, data) => {
