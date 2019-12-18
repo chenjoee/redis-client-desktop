@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ed79d0-e63f-4ade-b7da-d8ec7618e5e6" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/config/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/menu.js" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/renderer/utils/redistool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ejs" afterDir="false" />
+>>>>>>> 2830c87f1abfebe245411a2c8df6abae8ae786bf
+      <change beforePath="$PROJECT_DIR$/src/renderer/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/App.vue" afterDir="false" />
+=======
+>>>>>>> 932c50e30dd08be93fa7a51962125043eed9dd55
+>>>>>>> 0a917cbcea702f36c3f698d349aa2aa529c2aa2d
       <change beforePath="$PROJECT_DIR$/src/renderer/components/BucketList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/BucketList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/store/modules/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/store/modules/app.js" afterDir="false" />
     </list>
@@ -17,9 +34,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf>
+      <file leaf-file-name="Header.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/components/Header.vue">
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="Layout.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/components/Layout.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#el-header#0;n#el-container#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#496#537#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/main.js">
+>>>>>>> 2830c87f1abfebe245411a2c8df6abae8ae786bf
+=======
+>>>>>>> 0a917cbcea702f36c3f698d349aa2aa529c2aa2d
       <file leaf-file-name="CreateBucket.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/CreateBucket.vue">
+>>>>>>> 932c50e30dd08be93fa7a51962125043eed9dd55
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2244">
               <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
@@ -88,11 +132,40 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <file leaf-file-name="CreateBucket.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/components/CreateBucket.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-550">
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+=======
+      <file leaf-file-name="individualCommands.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/redis/lib/individualCommands.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="224" selection-start-line="224" selection-end-line="224" />
+>>>>>>> 2830c87f1abfebe245411a2c8df6abae8ae786bf
+=======
       <file leaf-file-name="getters.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/store/getters.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
+<<<<<<< HEAD
               <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+=======
+              <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+>>>>>>> 932c50e30dd08be93fa7a51962125043eed9dd55
+>>>>>>> 0a917cbcea702f36c3f698d349aa2aa529c2aa2d
             </state>
           </provider>
         </entry>
@@ -181,8 +254,12 @@
         <option value="$PROJECT_DIR$/src/renderer/store/getters.js" />
         <option value="$PROJECT_DIR$/src/renderer/utils/redistool.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/CreateBucket.vue" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/package.json" />
+=======
         <option value="$PROJECT_DIR$/src/renderer/store/modules/app.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/BucketList.vue" />
+>>>>>>> 932c50e30dd08be93fa7a51962125043eed9dd55
       </list>
     </option>
   </component>
@@ -207,10 +284,17 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="219" />
+    <option name="y" value="22" />
+    <option name="width" value="1400" />
+=======
   <component name="ProjectFrameBounds">
     <option name="x" value="-1816" />
     <option name="y" value="10" />
     <option name="width" value="1704" />
+>>>>>>> 2830c87f1abfebe245411a2c8df6abae8ae786bf
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
@@ -322,18 +406,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576504295106</updated>
+<<<<<<< HEAD
+      <workItem from="1576504296621" duration="4679000" />
+=======
       <workItem from="1576504296621" duration="3910000" />
+<<<<<<< HEAD
+      <workItem from="1576554489994" duration="15351000" />
+>>>>>>> 2830c87f1abfebe245411a2c8df6abae8ae786bf
+=======
       <workItem from="1576554489994" duration="19479000" />
+<<<<<<< HEAD
       <workItem from="1576630338396" duration="3349000" />
+=======
+>>>>>>> 932c50e30dd08be93fa7a51962125043eed9dd55
+>>>>>>> 0a917cbcea702f36c3f698d349aa2aa529c2aa2d
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="26738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1816" y="10" width="1704" height="1000" extended-state="0" />
     <editor active="true" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="4679000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+=======
+    <option name="totallyTimeSpent" value="19261000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1804" y="14" width="1704" height="1000" extended-state="0" />
+    <editor active="true" />
+>>>>>>> 2830c87f1abfebe245411a2c8df6abae8ae786bf
+=======
+    <option name="totallyTimeSpent" value="23389000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1804" y="14" width="1704" height="1000" extended-state="0" />
+>>>>>>> 932c50e30dd08be93fa7a51962125043eed9dd55
+>>>>>>> 0a917cbcea702f36c3f698d349aa2aa529c2aa2d
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.20465687" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -341,7 +458,24 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293556" />
       <window_info anchor="bottom" id="Run" order="2" />
+<<<<<<< HEAD
       <window_info id="npm" order="1" side_tool="true" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="npm" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49947917" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947917" visible="true" weight="0.32816228" />
+      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.3293556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.20159313" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+>>>>>>> 2830c87f1abfebe245411a2c8df6abae8ae786bf
+      <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> 0a917cbcea702f36c3f698d349aa2aa529c2aa2d
       <window_info anchor="right" id="Structure" order="3" sideWeight="0.5008881" side_tool="true" visible="true" weight="0.19791667" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947917" visible="true" weight="0.32816228" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -675,11 +809,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/CreateBucket.vue">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2244">
           <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="216">
+          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+=======
+        <state relative-caret-position="286">
+          <caret line="133" column="24" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
+=======
+        <state relative-caret-position="531">
+          <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+>>>>>>> 932c50e30dd08be93fa7a51962125043eed9dd55
+>>>>>>> 0a917cbcea702f36c3f698d349aa2aa529c2aa2d
           <folding>
             <element signature="e#3250#3284#0" expanded="true" />
           </folding>
+>>>>>>> 2830c87f1abfebe245411a2c8df6abae8ae786bf
         </state>
       </provider>
     </entry>

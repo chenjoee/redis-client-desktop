@@ -1,6 +1,6 @@
 //to reset element-ui default css
 .el-container {
-  height: 650px;
+  height: calc(100% - 60px);
   .el-header {
     background-color: #409eff;
     color: #fff;
